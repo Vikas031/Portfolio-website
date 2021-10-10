@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-website/static/css/main.2f994605.chunk.css",
-    "main.js": "/Portfolio-website/static/js/main.c6581471.chunk.js",
-    "main.js.map": "/Portfolio-website/static/js/main.c6581471.chunk.js.map",
+    "main.css": "/Portfolio-website/static/css/main.c67aa8c1.chunk.css",
+    "main.js": "/Portfolio-website/static/js/main.96e731af.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.96e731af.chunk.js.map",
     "runtime-main.js": "/Portfolio-website/static/js/runtime-main.9b1a8eb8.js",
     "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.9b1a8eb8.js.map",
-    "static/js/2.ed1e8479.chunk.js": "/Portfolio-website/static/js/2.ed1e8479.chunk.js",
-    "static/js/2.ed1e8479.chunk.js.map": "/Portfolio-website/static/js/2.ed1e8479.chunk.js.map",
+    "static/js/2.7f870c79.chunk.js": "/Portfolio-website/static/js/2.7f870c79.chunk.js",
+    "static/js/2.7f870c79.chunk.js.map": "/Portfolio-website/static/js/2.7f870c79.chunk.js.map",
     "index.html": "/Portfolio-website/index.html",
-    "static/css/main.2f994605.chunk.css.map": "/Portfolio-website/static/css/main.2f994605.chunk.css.map",
-    "static/js/2.ed1e8479.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.ed1e8479.chunk.js.LICENSE.txt",
+    "static/css/main.c67aa8c1.chunk.css.map": "/Portfolio-website/static/css/main.c67aa8c1.chunk.css.map",
+    "static/js/2.7f870c79.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.7f870c79.chunk.js.LICENSE.txt",
     "static/media/back.fba47ca8.jpeg": "/Portfolio-website/static/media/back.fba47ca8.jpeg",
     "static/media/core.78e1789b.webp": "/Portfolio-website/static/media/core.78e1789b.webp",
+    "static/media/cv.65b1aa3a.png": "/Portfolio-website/static/media/cv.65b1aa3a.png",
     "static/media/ds.8891f2db.jpg": "/Portfolio-website/static/media/ds.8891f2db.jpg",
     "static/media/facemask.6ebe4e2a.jpg": "/Portfolio-website/static/media/facemask.6ebe4e2a.jpg",
     "static/media/hotel1.bb6b3f75.png": "/Portfolio-website/static/media/hotel1.bb6b3f75.png",
@@ -22,13 +23,14 @@
     "static/media/maze.9b0c3ca4.png": "/Portfolio-website/static/media/maze.9b0c3ca4.png",
     "static/media/my_icon.39dfdb0f.png": "/Portfolio-website/static/media/my_icon.39dfdb0f.png",
     "static/media/my_photo.33102d2a.jpeg": "/Portfolio-website/static/media/my_photo.33102d2a.jpeg",
+    "static/media/project_back.96851d64.jpg": "/Portfolio-website/static/media/project_back.96851d64.jpg",
     "static/media/video.9973d5cf.mp4": "/Portfolio-website/static/media/video.9973d5cf.mp4",
     "static/media/web.ec009eba.jpg": "/Portfolio-website/static/media/web.ec009eba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b1a8eb8.js",
-    "static/js/2.ed1e8479.chunk.js",
-    "static/css/main.2f994605.chunk.css",
-    "static/js/main.c6581471.chunk.js"
+    "static/js/2.7f870c79.chunk.js",
+    "static/css/main.c67aa8c1.chunk.css",
+    "static/js/main.96e731af.chunk.js"
   ]
 }
