@@ -1,0 +1,158 @@
+:root{
+  --tcolor:#00fff3;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem !important ;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Header / Navbar CSS */
+.logo{
+  display: flex;
+  justify-content: center;
+}
+header{
+  font-family: 'Poppins', sans-serif;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index:5;
+}
+.navbar{
+  border: 1px solid white;
+  font-size: 0.9rem !important;
+}
+.navbar-btn{
+  font-size: 0.8rem !important;
+  background-color:rgb(27, 190, 190) !important;
+}
+
+.navlink{
+  font-size: 0.8rem !important;
+  background-color: rgb(65, 63, 63);
+  color: white !important;
+}
+ #extra{
+   padding-left: 60% !important;
+   padding-right:60% !important;
+ }
+
+.navlink:hover{
+  background-color: var(--tcolor) !important;
+
+}
+/* ------------------------------------------------------------------------- */
+/* home */
+/* ------------------------------------------------------------------------- */
+#my-name{
+  font-size:x-large;
+  font-family: 'Poppins', sans-serif;
+  color:var(--tcolor);
+}
+
+.about-me{
+  padding-top: 3%;
+  padding-bottom: 10%;
+  margin-bottom: 4% !important;
+  clip-path: polygon(0 0,100% 0,100% 100%,75% 80%,0 100%);
+}
+
+/* Education */
+.my_image{
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px 1px black;
+  border-radius: 1rem;
+}
+
+
+/* -------------------------------------------------- */
+/* skills section */
+.skill_card{
+  background-color:rgb(226, 224, 224);
+}
+.card-grid{
+  font-size: 0.9rem !important;
+  padding: 0.5%;
+  margin: 2% !important;
+  margin-bottom: 7% !important;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transition: 500ms;
+}
+.card-grid:hover{
+  transform: scale(1.02);
+}
+
+.card-icon{
+  top: -3.9rem;
+  left: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.card-content{
+  padding-top: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: rgb(4, 49, 131);
+
+}
+
+.card-content:hover{
+  color: white;
+  background-color: black;
+  transform: scale(1.02);
+}
+
+.card-content>h3{
+  text-decoration:underline;
+  text-align: center;
+}
+
+.card-content>h4{
+  text-decoration:underline;
+  text-align: center;
+}
+
+.card-content>h5{
+  text-decoration:underline;
+  text-align: center;
+}
+
+
+
+/* Projects  */
+/*  -----------------------------------------------------*/
+.pro{
+  font-size: 1rem !important;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 1rem !important;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.btn-wrap{
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+.drop-btn{
+  font-size: 1.2rem !important;
+  width:80% !important;
+   background-color: rgb(46, 45, 45) !important;
+   justify-content: flex-start !important;
+}
