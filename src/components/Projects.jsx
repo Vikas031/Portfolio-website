@@ -7,15 +7,15 @@ import hotel1 from "../images/projectsc/hotel1.png";
 import hotel2 from "../images/projectsc/hotel2.png";
 import hotel3 from "../images/projectsc/hotel3.png";
 import hotel4 from "../images/projectsc/hotel4.png";
-import img from "../images/back.jpeg";
+import img from "../images/project_back.jpg";
 function project1()
 {
     return (
         <>
         <Grid className="pro" container justifyContent="space-evenly">
-            <Grid sm={5}>
+            <Grid xs={12} sm={5}>
             <br />
-            <center><h3> FaceMask Detection (Deep Learning Project)</h3>
+            <center><h4> FaceMask Detection</h4>
             </center>
             <div>
             This deep learning projects helps in finding out whether a person is  wearing a mask or not using live image or live video of the person using deep learning concept.
@@ -32,8 +32,10 @@ function project1()
             </div>
 
             </Grid>
-            <Grid sm={4}>
-            <img src={face} alt="" width="100%" />
+            <Grid xs={12} sm={4} container justifyContent="center" >
+                <Grid xs={8} sm={12}>
+            <img src={face} alt="" width="100%"/>
+            </Grid>
             </Grid>
 
         </Grid>
@@ -45,8 +47,9 @@ function project2()
 {
     return (
         <>
-        <Grid className="pro"  container justifyContent="space-evenly">
-            <Grid sm={4}>
+        <Grid className="pro" id="pro-carousel"  container justifyContent="space-evenly">
+            <Grid xs={12} sm={4} container justifyContent="center">
+                <Grid xs={8} sm={12}>
                 <br />
             <div style={{display:"flex", alignItems:"center",justifyContent:"center"}}>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -57,16 +60,16 @@ function project2()
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src={hotel1} alt="First slide"/>
+      <img class="d-block w-100" src={hotel1} alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={hotel2} alt="Second slide"/>
+      <img class="d-block w-100" src={hotel2} alt="Second slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={hotel3} alt="Third slide"/>
+      <img class="d-block w-100" src={hotel3} alt="Third slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={hotel4} alt="Fourth slide"/>
+      <img class="d-block w-100" src={hotel4} alt="Fourth slide" />
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,11 +82,12 @@ function project2()
   </a>
 </div>
 </div>
+</Grid>
             </Grid>
 
-            <Grid sm={5}>
+            <Grid xs={12} sm={5}>
                 <br />
-                <center><h3>Hotel Management System</h3></center>
+                <center><h5>Hotel Management System</h5></center>
                 <br />
                 <div>
                 This is a web-based application project for hotel management system.
@@ -114,9 +118,9 @@ function project3()
     return (
         <>
         <Grid className="pro" container justifyContent="space-evenly">
-            <Grid sm={5}>
+            <Grid sm={5} xs={12}>
             <br />
-            <center><h3> Maze Solver (Python) </h3>
+            <center><h5> Maze Solver (Python) </h5>
             </center>
             <div>
             This project show us the shortest possible path in a maze using dijsktra's algorithm. 
@@ -135,8 +139,10 @@ function project3()
             </div>
 
             </Grid>
-            <Grid sm={4}>
+            <Grid sm={4} xs={12} container justifyContent="center">
+                <Grid xs={8} sm={12}>
             <img src={maze} alt="" width="100%" />
+            </Grid>
             </Grid>
 
         </Grid>
@@ -151,14 +157,14 @@ const Projects = () => {
     const [x3, setx3] = useState(true)
     return (
     <>
-    <div>
+    <div className="project">
         <br /><br />
-     <Grid container justifyContent="center" style={{backgroundColor:"black" ,color:"white"}}>
+     <Grid container justifyContent="center" style={{position:"relative",backgroundImage: `url(${img})`,width:"100%",height:"100%",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
          <Grid sm={11} container justifyContent="center">
-             <Grid sm={10}> 
+             <Grid xs={10} sm={10}> 
              <Box className="btn-grp">
                  <br /><br /><br />
-                 <center><h1>PROJECTS</h1></center>
+                 <center><h3 style={{color:"white"}}>PROJECTS</h3></center>
                  <div className="btn-wrap">
                      <Button size="large"  className="drop-btn" fullWidth variant="contained" color="primary" onClick={()=>{setx1(!x1)}}>
                      Project 1: Face Mask Detection 
@@ -182,7 +188,7 @@ const Projects = () => {
          </Grid>
      </Grid>
      </div>
-    <br /><br /><br />
+    <br /><br />
     </>
     )
 }

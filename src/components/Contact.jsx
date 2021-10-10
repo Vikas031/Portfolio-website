@@ -5,47 +5,49 @@ import video from "../images/video.mp4";
 const Contact = () => {
     return (
         
-        <div style={{position:"relative",backgroundImage:`linear-gradient(#dbd3d352,#bdbbc9),url(${img})`,width:"100%",height:"80vh",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+        <div className="contact" style={{position:"relative",backgroundImage:`linear-gradient(#dbd3d352,#bdbbc9),url(${img})`,width:"100%",height:"100%",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+            <br />
             <br />
             <br />
             <Grid container justifyContent="center" >
-                <Grid sm={9} >
+                <Grid sm={8} xs={10} >
                     <Box border="2px solid black" borderRadius="2rem" bgcolor="white">
                         <Grid container justifyContent="space-evenly">
                             <Grid sm={4} container justifyContent="center" alignItems="center">
-                            <br />
-                            <Grid >
-                            <video width="110%" height="240" autoPlay muted loop>  
+                            <Grid container justifyContent="center">
+                                <Grid xs={8} sm={12}>
+                            <video width="90%" height="140" className="video" autoPlay muted loop>  
                             <source src={video} type="video/mp4"/>  
                             Your browser does not support the html video tag.  
-                            </video>                    
+                            </video> 
+                            </Grid>                   
                         </Grid>
                             </Grid>
 
                             <Grid sm={6} className="contact_info">
-                                <br />
-                                <center><Typography variant="h3">Contact ME</Typography></center>
-                                <br />
-                                <div style={{padding:"3%",backgroundColor:"whitesmoke"}}>
-                                <h5>PHONE NO :</h5>
+                                <center><Typography variant="h5">Contact ME</Typography></center>
+                                <div style={{padding:"2%",backgroundColor:"whitesmoke"}}>
+                                <h6>PHONE NO :</h6>
                                 <div>8800710860</div>
                                 <br />
 
-                                <h5>E-MAIL :</h5>
-                                 <div><a href="mailto:vikasbhandari031@gmail.com" target="_blank">vikasbhandari031@gmail.com</a></div>
+                                <h6>E-MAIL :</h6>
+                                 <div><a href="mailto:vikasbhandari031@gmail.com">vikasbhandari031@gmail.com</a></div>
                                  <br />
 
-                                 <h5>LINKED-IN :</h5>
+                                 <h6>LINKED-IN :</h6>
                                  <div><a href="https://www.linkedin.com/in/vikas-bhandari-771b1619b/_">https://www.linkedin.com/in/vikas-bhandari-771b1619b/_</a></div>
                                  </div>
                             </Grid>
 
                         </Grid>
                         <br />
-                        <br />
                     </Box>
                 </Grid>
             </Grid>
+            <br />
+            <br />
+            <br />
         </div>
     )
 }

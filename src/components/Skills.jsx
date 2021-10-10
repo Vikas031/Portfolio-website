@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid,Box,Button} from "@material-ui/core";
+import {Grid} from "@material-ui/core";
 import ds from "../images/skills/ds.jpg";
 import language from "../images/skills/language.png";
 import ml from "../images/skills/ml.png";
@@ -10,12 +10,12 @@ const Skills = () => {
     return (
       <>
       
-      <div style={{position:"relative",backgroundImage: `url(${img})`,width:"100%",height:"120vh",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+      <div className="skills" style={{position:"relative",backgroundImage: `url(${img})`,width:"100%",height:"100%",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
             <br />
-            <h2 style={{textAlign:"center", marginBottom:"4%"}}>My Skills</h2>
+            <h2 className="my_skill" >My Skills</h2>
             <Grid container justifyContent="center" style={{backgroundBlendMode:"unset"}}>
-                <Grid sm={11} container justifyContent="space-evenly" className="skill_card">
-                <Grid item sm={3} className="card-grid">
+                <Grid xs={10} sm={11} container justifyContent="space-evenly" className="skill_card">
+                <Grid item xs={12} sm={3} className="card-grid">
                     <div className="card-icon"><img src={ds} alt="Pic not available" width="60%"/></div>
                     <div className="card-content">
                         <h4>DS / ALGO</h4>
@@ -23,12 +23,13 @@ const Skills = () => {
                           <ul>
                           <li> Good knowledge of Data Structures and Algorthims. </li>
                           <li>Code Optimization</li>
-                          <li>Link :<a href="#" style={{textDecoration:"none",color:"lightsalmon"}}> Leetcode Profile</a></li>
+                          <li>Link :<a href="https://leetcode.com/vikasbhandari031/" style={{textDecoration:"none",color:"lightsalmon"}}> Leetcode Profile</a></li>
+                          <li>Link : <a href="https://auth.geeksforgeeks.org/user/vikasbhandari031/practice/" style={{textDecoration:"none",color:"lightsalmon"}}>GFG Profile</a> </li>
                           </ul>
                         </div>
                         </div>
                 </Grid>
-                <Grid item sm={3} className="card-grid">
+                <Grid item xs={12} sm={3} className="card-grid">
                     <div className="card-icon"><img src={web} alt="Pic not available" width="65%"/></div>
                     <div className="card-content">
                         <h5>Full Stack Web Developer</h5>
@@ -41,7 +42,7 @@ const Skills = () => {
                         </div>
                         </div>
                 </Grid>
-                <Grid item sm={3} className="card-grid">
+                <Grid item xs={12} sm={3} className="card-grid">
                     <div className="card-icon"><img src={language} alt="Pic not available" width="70%"/></div>
                     <div className="card-content">
                         <h5>Multiple Programming Languages</h5>
@@ -55,7 +56,7 @@ const Skills = () => {
                         </div>
                 </Grid>
                 
-                <Grid item sm={3} className="card-grid">
+                <Grid item xs={12} sm={3} className="card-grid">
                     <div className="card-icon"><img src={ml} alt="Pic not available" width="50%"/></div>
                     <div className="card-content">
                         <h5>Machine Learning</h5>
@@ -68,7 +69,7 @@ const Skills = () => {
                         </div>
                         </div>
                 </Grid>
-                <Grid item sm={3} className="card-grid">
+                <Grid item xs={12} sm={3} className="card-grid">
                     <div className="card-icon"><img src={core} alt="Pic not available" width="45%"/></div>
                     <div className="card-content">
                         <h5>CORE SUBJECTS</h5>
@@ -84,7 +85,7 @@ const Skills = () => {
                
             </Grid>
             </Grid>
-            
+            <br />
         </div>
         
         </>
