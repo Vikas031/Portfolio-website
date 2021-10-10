@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio-website/static/css/main.2f994605.chunk.css",
+    "main.js": "/Portfolio-website/static/js/main.c6581471.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.c6581471.chunk.js.map",
+    "runtime-main.js": "/Portfolio-website/static/js/runtime-main.9b1a8eb8.js",
+    "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.9b1a8eb8.js.map",
+    "static/js/2.ed1e8479.chunk.js": "/Portfolio-website/static/js/2.ed1e8479.chunk.js",
+    "static/js/2.ed1e8479.chunk.js.map": "/Portfolio-website/static/js/2.ed1e8479.chunk.js.map",
+    "index.html": "/Portfolio-website/index.html",
+    "static/css/main.2f994605.chunk.css.map": "/Portfolio-website/static/css/main.2f994605.chunk.css.map",
+    "static/js/2.ed1e8479.chunk.js.LICENSE.txt": "/Portfolio-website/static/js/2.ed1e8479.chunk.js.LICENSE.txt",
+    "static/media/back.fba47ca8.jpeg": "/Portfolio-website/static/media/back.fba47ca8.jpeg",
+    "static/media/core.78e1789b.webp": "/Portfolio-website/static/media/core.78e1789b.webp",
+    "static/media/ds.8891f2db.jpg": "/Portfolio-website/static/media/ds.8891f2db.jpg",
+    "static/media/facemask.6ebe4e2a.jpg": "/Portfolio-website/static/media/facemask.6ebe4e2a.jpg",
+    "static/media/hotel1.bb6b3f75.png": "/Portfolio-website/static/media/hotel1.bb6b3f75.png",
+    "static/media/hotel2.edc7c901.png": "/Portfolio-website/static/media/hotel2.edc7c901.png",
+    "static/media/hotel3.9fa2c7ec.png": "/Portfolio-website/static/media/hotel3.9fa2c7ec.png",
+    "static/media/hotel4.a984336d.png": "/Portfolio-website/static/media/hotel4.a984336d.png",
+    "static/media/id_card.898db107.jpg": "/Portfolio-website/static/media/id_card.898db107.jpg",
+    "static/media/maze.9b0c3ca4.png": "/Portfolio-website/static/media/maze.9b0c3ca4.png",
+    "static/media/my_icon.39dfdb0f.png": "/Portfolio-website/static/media/my_icon.39dfdb0f.png",
+    "static/media/my_photo.33102d2a.jpeg": "/Portfolio-website/static/media/my_photo.33102d2a.jpeg",
+    "static/media/video.9973d5cf.mp4": "/Portfolio-website/static/media/video.9973d5cf.mp4",
+    "static/media/web.ec009eba.jpg": "/Portfolio-website/static/media/web.ec009eba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b1a8eb8.js",
+    "static/js/2.ed1e8479.chunk.js",
+    "static/css/main.2f994605.chunk.css",
+    "static/js/main.c6581471.chunk.js"
+  ]
+}
