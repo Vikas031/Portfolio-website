@@ -1,6 +1,5 @@
 import React from 'react'
 import {Grid,Box,Button} from "@material-ui/core";
-import { useRef } from 'react';
 import cv from "../images/cv.png";
 const Checkcv = () => {
     return (

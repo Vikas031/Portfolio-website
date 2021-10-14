@@ -11,13 +11,14 @@ const Home = () => {
   }  
   return (
         <div className="home" style={{backgroundColor:"white"}}>
-        <Box className="about-me" style={{position:"relative",backgroundImage: `url(${img2})`,width:"100%",height:"100vh",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+        <Box className="about-me" style={{position:"relative",backgroundImage: `url(${img2})`,width:"100%",height:"100%",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
           <br />
           <Grid container justifyContent="center">
             <Grid item xs={10} sm={10} container>
               <Grid sm={6}>
                 <Box display="flex" justifyContent="center">
-                <img src={img} alt="Loading" width="55%" className="my_image" />
+                <img src={img} alt="Loading" width="55%" className="my_image" /
+                >
                 </Box></Grid>
               <Grid sm={6}>
                 <Box color="white" width="90%">

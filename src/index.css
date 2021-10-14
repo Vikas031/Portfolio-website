@@ -11,6 +11,11 @@ body {
   font-size: 1rem !important ;
 }
 
+Button:active{
+    border: 0px !important;
+    padding: none !important;
+}
+
 /* ------------------------------------------------------------------------- */
 /* Header / Navbar CSS */
 .logo{
@@ -45,7 +50,7 @@ header{
 
 .navlink:hover{ 
   color: var(--tcolor) !important;
-
+  border: none !important;
 }
 /* ------------------------------------------------------------------------- */
 /* home */
@@ -82,7 +87,6 @@ header{
   background-color:rgb(226, 224, 224);
 }
 .card-grid{
-  width: 60% !important;
   font-size: 0.6rem !important;
   padding: 0.5%;
   margin: 2% !important;
@@ -114,7 +118,12 @@ header{
   justify-content: center;
   color: white;
   background-color: rgb(4, 49, 131);
+}
 
+.card-points{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .card-content:hover{
@@ -227,7 +236,6 @@ header{
   margin-bottom: 13%;
 }
 .card-grid{
-  width: 70% !important;
   font-size: 0.7rem !important;
   padding: 0.5%;
   margin: 2% !important;
@@ -235,14 +243,34 @@ header{
 }
 
 .card-icon{
-  width: 70% !important;
-  top: -2.8rem;
-  left: 15%;
+  width: 80% !important;
+  top: -1.3rem;
+  left: 13%;
 }
 
 .card-content{
+  height: 95%;
   padding-top: 12%;
 }
+
+.card-content>h3{
+  font-size: 0.8rem;
+  text-decoration:underline;
+  text-align: center;
+}
+
+.card-content>h4{
+  font-size: 0.8rem;
+  text-decoration:underline;
+  text-align: center;
+}
+
+.card-content>h5{
+  font-size: 0.8rem;
+  text-decoration:underline;
+  text-align: center;
+}
+
 
 /* projects */
 .pro{
